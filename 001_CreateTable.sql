@@ -2,9 +2,15 @@
 
 GO
 
--- CREATE TABLE 
+/* 
+ CREATE TABLE (A simple example of creating tables)
 
--- A simple example of creating tables
+ TEST = Database (Optional)
+ dbo = Schema (Optional. Default Schema is dbo.) 
+	
+ IDENTITY [ (seed , increment ) ] 
+ */
+
 
 CREATE TABLE [TEST].[dbo].[Product](
 	[ProductId] [int] PRIMARY KEY IDENTITY(1,1) NOT NULL,
@@ -13,3 +19,4 @@ CREATE TABLE [TEST].[dbo].[Product](
 	[CreatedAt] [datetime] NOT NULL,
 	[Active] [bit] NOT NULL
 );
+

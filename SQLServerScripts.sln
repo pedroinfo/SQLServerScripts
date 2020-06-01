@@ -4,6 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B9CA1D2C-0F55-4678-9F4B-4B90484BF67E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{2F7A094B-3A38-4887-A2B5-9A6377543C59}"
 	ProjectSection(SolutionItems) = preProject
 		001_CreateTable.sql = 001_CreateTable.sql
 	EndProjectSection
@@ -11,6 +13,9 @@ EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F7A094B-3A38-4887-A2B5-9A6377543C59} = {B9CA1D2C-0F55-4678-9F4B-4B90484BF67E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F52B4A9-C452-476F-BD7E-18D794BA4CCE}
