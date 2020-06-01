@@ -3,19 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B9CA1D2C-0F55-4678-9F4B-4B90484BF67E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{2F7A094B-3A38-4887-A2B5-9A6377543C59}"
-	ProjectSection(SolutionItems) = preProject
-		001_CreateTable.sql = 001_CreateTable.sql
-	EndProjectSection
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Scripts", "Scripts\Scripts.sqlproj", "{9545925D-F764-4047-8300-E7E1C69BFC24}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9545925D-F764-4047-8300-E7E1C69BFC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9545925D-F764-4047-8300-E7E1C69BFC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9545925D-F764-4047-8300-E7E1C69BFC24}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9545925D-F764-4047-8300-E7E1C69BFC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9545925D-F764-4047-8300-E7E1C69BFC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9545925D-F764-4047-8300-E7E1C69BFC24}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{2F7A094B-3A38-4887-A2B5-9A6377543C59} = {B9CA1D2C-0F55-4678-9F4B-4B90484BF67E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F52B4A9-C452-476F-BD7E-18D794BA4CCE}
