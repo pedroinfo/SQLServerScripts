@@ -60,5 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\001_CreateTable.sql" />
+    <None Include="Scripts\002_CreateTableWithConstraints.sql" />
   </ItemGroup>
 </Project>
